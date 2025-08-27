@@ -1,4 +1,5 @@
 '''
+Source code for the multiscale deep-wavelet feature extraction branch
 in:  B * Cin * H * W                        #Img
 out: B * (4*emb_dim) * (H/2) * (W/2)        #F_Img
 '''
@@ -233,3 +234,4 @@ class FrameExtraction(nn.Module):
         x3 = self.fuse3(x3)
 
         return self.MultiScaleProj(torch.cat([x1, x2, x3], 1))
+
