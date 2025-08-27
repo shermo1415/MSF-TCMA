@@ -1,3 +1,8 @@
+'''
+Source code for the time-continuous manifold sampling branch
+in:  B * Cin * H * W                        #Img
+out: B * (4*emb_dim) * (H/2) * (W/2)        #F_Img
+'''
 import torch
 import torch.nn as nn
 import numpy as np
@@ -159,4 +164,5 @@ if __name__ == '__main__':
     timestep = 0.5
 
     c = n(img0, img1, ens, fls, timestep)
+
 
