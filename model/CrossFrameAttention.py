@@ -1,4 +1,5 @@
 '''
+Source code for cross-modal spatiotemporal information fusion branch
 in:  B * emb_dim * H * W                         #F_Img1
      B * emb_dim * H * W                         #F_Img2
 out: (
@@ -313,4 +314,5 @@ class CrossFrameAttentionSubNet(nn.Module):
             i, fl = self.CrossFrameAttnblocks[block](i, time, cr, B) #i:  i1B+i2B
             ens.append(i)
             fls.append(fl)
+
         return ens, fls
