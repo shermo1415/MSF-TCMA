@@ -13,11 +13,13 @@ pip install -r requirements.txt
 ## Overview
 
 - `model/model.py:` The algorithm architecture of this MSF-TCMA.
-- `model/FrameExtraction.py:` The multiscale deep-wavelet feature extraction branch.
-- `model/CrossFrameAttention.py:` The cross-modal spatiotemporal information fusion branch.
-- `model/FlowEstimate.py:` The time-continuous manifold sampling branch.
-- `config.py：`  Training configs for the MSF-TCMA.
+- `model/FeatureExtractionBranch.py:` The multiscale deep-wavelet feature extraction branch.
+- `model/InformationFusingBranch.py:` The cross-modal spatiotemporal information fusion branch.
+- `model/ManifoldSamplingBranch.py:` The time-continuous manifold sampling branch.
+- `makedataset.py:` Create the training/test dataset from the original dataset file.
+- `config.py：`  Hyperparameters and training/test configs for the MSF-TCMA.
 - `train.py:` Train the MSF-TCMA.
+- `test.py:` Test the MSF-TCMA.
 
 ## Data preparation
 
