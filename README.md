@@ -2,7 +2,7 @@
 
 ## Abstract
 
-This is the source code for paper "_Temporal Downscaling Meteorological Variables to Unseen Moments: Continuous Temporal Downscaling via Multi-Source Spatial-Temporal-Wavelet Feature Fusion and Time-Continuous Manifold_", which is in minor revise stage of "_ISPRS Journal of Photogrammetry and Remote Sensing_"
+This is the source code for paper "_Temporal Downscaling Meteorological Variables to Unseen Moments: Continuous Temporal Downscaling via Multi-Source Spatial-Temporal-Wavelet Feature Fusion and Time-Continuous Manifold_", which is Accepted by "_ISPRS Journal of Photogrammetry and Remote Sensing_"
 
 ## Installation
 
