@@ -39,7 +39,8 @@ python test.py
 ```
 
 ## Cite
-If this project could help you, please cite:
+If this project could help you, please cite our paper as:
+```
 @article{GAO202532,
 title = {Temporal downscaling meteorological variables to unseen moments: Continuous temporal downscaling via Multi-source Spatial–temporal-wavelet feature Fusion and Time-Continuous Manifold},
 journal = {ISPRS Journal of Photogrammetry and Remote Sensing},
@@ -51,7 +52,7 @@ doi = {https://doi.org/10.1016/j.isprsjprs.2025.09.001},
 url = {https://www.sciencedirect.com/science/article/pii/S092427162500351X},
 author = {Sheng Gao and Lianlei Lin and Zongwei Zhang and Jiawei Wang},
 }
-
+```
 
 ## Acknowledgments
 
