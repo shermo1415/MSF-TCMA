@@ -57,7 +57,7 @@ class Trainer:
 
 if __name__ == '__main__':
     
-    dataset_eval = TimeDownScalingDataset(configs.val_path, configs.dims, configs.interinterval, train= False)
+    dataset_eval = TimeDownScalingDataset(configs.test_path, configs.dims, configs.interinterval, train= False)
     # dataset_eval.indexs = dataset_eval.indexs[::25]
     print(dataset_eval.GetDataShape())
     dataloader_eval = DataLoader(dataset_eval, batch_size=1, shuffle=False)
