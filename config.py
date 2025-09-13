@@ -16,7 +16,8 @@ configs.num_epochs = 200
 configs.opt = 0.0001 #原 0.001； swin 0.0002
 
 configs.train_path = '../D2_24composite_onezero_train.npy'
-configs.val_path = '../D2_24composite_onezero_test.npy'
+configs.val_path = '../D2_24composite_onezero_val.npy'
+configs.test_path = '../D2_24composite_onezero_test.npy'
 configs.dims = ['t2m', 'sp', 'u10', 'v10']
 configs.interinterval = 10
 configs.trainframes = (configs.interinterval-1)//2
